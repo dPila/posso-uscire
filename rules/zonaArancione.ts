@@ -160,4 +160,11 @@ export default [
     regions: [PUGLIA, SICILIA, UMBRIA],
     cities: [BOLZANO],
   },
+  {
+    ...zonaArancione,
+    from: "2021/02/15 00:00:00",
+    to: "2021/02/28 23:59:59",
+    regions: [],
+    cities: [TRENTO],
+  },
 ];
